@@ -1,0 +1,18 @@
+Package: specifyR
+Title: specifyR: Defining sample specificity for gene expression
+Version: 0.0.1
+Authors@R: person("Diogo", "Camacho", email = "diogo.camacho@wyss.harvard.edu", role = c("aut", "cre"))
+Description: 
+License: GPL-3 + file LICENSE
+Depends: R (>= 3.4.0), 
+  AnnotationDbi,
+  org.Hs.eg.db,
+  dplyr,
+  tibble
+biocViews:
+Imports: ggplot2
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
